@@ -25,8 +25,8 @@ The strategy uses a rolling z-score of returns to compare assets. This method st
 The z-score is given by $z = \frac{r - \mu_l}{\sigma_l}$.
 Where:
 
-- \( r \) is the return over a short lookback window (`l_1`)
-- \( \mu_l \), \( \sigma_l \) are the rolling mean and standard deviation over a separate window (`l_2`)
+- $r$is the return over a short lookback window (`l_1`)
+- $ \mu_l $, $\sigma_l$ are the rolling mean and standard deviation over a separate window (`l_2`)
 
 This signal provides a more normalised view of momentum across assets, reducing bias toward highly volatile or trending coins.
 
@@ -43,7 +43,7 @@ The combination of two lookbacks (`l_1` and `l_2`) introduces flexibility in sig
 
 ## Performance Metrics
 
-The backtest computes comprehensive performance statistics including:
+The backtest computes comprehensive performance statistics, including:
 
 - **Annualized Return** and **Volatility**
 - **Sharpe Ratio** and **Sortino Ratio**
