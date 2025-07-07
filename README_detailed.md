@@ -1,6 +1,6 @@
 # Dual Momentum Crypto Strategy
 
-This repository presents an independent quantitative research project based on dual momentum investing principles, applied to a curated universe of liquid cryptocurrencies. The strategy combines ideas from empirical asset pricing, momentum literature, and robust Python-based backtesting to construct and evaluate a daily portfolio. The work was carried out independently and designed to showcase proficiency in research design, signal engineering, and performance evaluation, as expected in quantitative research roles.
+This repository presents an independent quantitative research project based on dual momentum investing principles applied to a curated universe of liquid cryptocurrencies. The strategy combines ideas from empirical asset pricing, momentum literature, and robust Python-based backtesting to construct and evaluate a daily portfolio. The work was carried out independently and designed to showcase proficiency in research design, signal engineering, and performance evaluation, as expected in quantitative research roles.
 
 ## Strategy Overview
 
@@ -22,8 +22,7 @@ In this project, the dual momentum strategy is applied to cryptocurrencies on a 
 
 The strategy uses a rolling z-score of returns to compare assets. This method standardises momentum signals across assets with different volatilities:
 
-z = \frac{r - \mu_l}{\sigma_l}
-
+The z-score is given by $z = \frac{r - \mu_l}{\sigma_l}$.
 Where:
 
 - \( r \) is the return over a short lookback window (`l_1`)
