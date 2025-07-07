@@ -22,9 +22,7 @@ In this project, the dual momentum strategy is applied to cryptocurrencies on a 
 
 The strategy uses a rolling z-score of returns to compare assets. This method standardises momentum signals across assets with different volatilities:
 
-\[
 z = \frac{r - \mu_l}{\sigma_l}
-\]
 
 Where:
 
